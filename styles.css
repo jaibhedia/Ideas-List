@@ -8,15 +8,13 @@ body {
 }
 
 header {
-    background-color: #59a9fa;
+    background-color: #71b4fc;
     border-bottom: 1px solid #e1e4e8;
 }
 
-
-
 main {
     flex: 1;
-    text-align: center;
+    text-align: left; /* Changed to left as requested */
     padding: 40px 20px;
 }
 
@@ -37,26 +35,15 @@ footer p {
     margin: 5px 0;
 }
 
-.logo img {
-    height: 50px; 
-    margin-left: 16px; 
-}
-
-
-
-header {
-    background-color: #71b4fc; 
-}
-
 nav .nav-content {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 0 20px; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .logo img {
-    height: 50px; 
+    height: 50px;
 }
 
 nav ul {
@@ -64,7 +51,9 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 nav li {
@@ -73,17 +62,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white; 
+    color: white;
     font-weight: bold;
 }
 
-
-nav ul {
-    flex: 1; 
-    justify-content: center; 
-}
-
 #ideas-list {
-    text-align: center; 
-    flex-grow: 1; 
+    text-align: left; /* Changed to left as requested */
+    flex-grow: 1;
 }
